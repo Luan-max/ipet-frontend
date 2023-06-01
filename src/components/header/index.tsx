@@ -11,10 +11,10 @@ export default function Header() {
       </div>
 
       <div className="flex flex-row pr-28 gap-8 items-center justify-center">
-        <Link href="#" className="text-white font-bold text-md">
+        <Link href="#" className="text-white font-bold text-md hover:underline underline-offset-8">
           Planos e Preços
         </Link>
-        <Link href="#" className="text-white font-bold text-md">
+        <Link href="#" className="text-white font-bold text-md hover:underline underline-offset-8">
           Fale conosco
         </Link>
         <button className="bg-transparent w-36 h-10 rounded-md outline outline-offset-2 outline-2 outline-white hover:bg-white text-white hover:text-primary-0">
