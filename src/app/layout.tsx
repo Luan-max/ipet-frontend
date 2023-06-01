@@ -1,20 +1,21 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import { Poppins } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+
+const inter = Poppins({ subsets: ["latin", "latin-ext"], weight: "400" });
 
 export const metadata = {
-  title: 'IPet',
-}
+  title: "IPet",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
