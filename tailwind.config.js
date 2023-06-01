@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+background:'url(/assets/banner1.png)'
+      },
       colors: {
         primary: {
           0: '#0ea5e9',
