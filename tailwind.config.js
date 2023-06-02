@@ -8,11 +8,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-background:'url(/assets/banner1.png)'
+          background:'url(/assets/banner1.png)'
+      },
+      height: {
+        102: '84%'
       },
       colors: {
         primary: {
           0: '#0ea5e9',
+        },
+        secondary: {
+          0: '#4b5563'
         },
         light: {
           0: '#FFFFFF',
