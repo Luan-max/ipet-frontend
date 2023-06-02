@@ -20,7 +20,7 @@ export default function Home() {
             Gestão clínica e <br />
             prontuário eletrônico
           </h2>
-          <p className="text-black text-2xl">
+          <p className="text-gray-700 text-2xl">
             Conquiste uma gestão clínica de excelência com um <br />
             software médico feito para você
           </p>
@@ -40,7 +40,7 @@ export default function Home() {
             Passe o mouse sobre os cards e conheça nossas funcionalidades
           </span>
         </div>
-        <div className="flex flex-wrap items-center justify-center mt-12 gap-4">
+        <div className="flex flex-wrap items-center justify-center mt-12 gap-4 p-4">
           <Card
             className="bg-gradient-to-r from-blue-500 to-cyan-500"
             title="Casdatro de paciente"
