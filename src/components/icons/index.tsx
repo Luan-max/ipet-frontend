@@ -111,7 +111,7 @@ export const Calendar = (
     ></path>
     <path
       fill-rule="evenodd"
-      clip-rule="evenodd"
+      clipRule="evenodd"
       d="M237 101l-1.076 21.303a6 6 0 01-5.992 5.697h11a6 6 0 005.992-5.697L248 101h-11z"
       fill="#63B0F4"
     ></path>
@@ -368,7 +368,7 @@ export const Communication = (
         filterUnits="userSpaceOnUse"
         color-interpolation-filters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
         <feColorMatrix
           in="SourceAlpha"
           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -392,7 +392,7 @@ export const Communication = (
         filterUnits="userSpaceOnUse"
         color-interpolation-filters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+        <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
         <feColorMatrix
           in="SourceAlpha"
           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -550,7 +550,7 @@ export const Prontu = (
       ></path>
       <path
         fill-rule="evenodd"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         d="M43 90a1 1 0 00-1-1H25a1 1 0 00-1 1v1c0 .552-.474.98-.959 1.245A2 2 0 0022 94v32a2 2 0 002 2h19a2 2 0 002-2V94a2 2 0 00-1.041-1.755C43.474 91.978 43 91.552 43 91v-1z"
         fill="#7CBDF7"
       ></path>
