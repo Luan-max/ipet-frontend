@@ -4,8 +4,8 @@ import Button from "@/components/button";
 import Card from "@/components/card";
 import Header from "@/components/header";
 import { PhoneCall } from "phosphor-react";
-
 import { Communication, Online, Prontu, Calendar } from "@/components/icons";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full h-102 bg-white ">
+      <section className="w-full  bg-white ">
         <div className="flex flex-col items-center justify-center pt-12 gap-2">
           <h1 className="text-primary-0 text-5xl font-bold">Funcionalidades</h1>
           <span className="text-secondary-0 text-lg font-bold">
@@ -63,6 +63,7 @@ export default function Home() {
           />
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
