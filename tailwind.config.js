@@ -11,7 +11,7 @@ module.exports = {
           background:'url(/assets/banner1.png)'
       },
       height: {
-        102: '70%'
+        102: '84%'
       },
       colors: {
         primary: {

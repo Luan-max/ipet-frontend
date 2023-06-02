@@ -5,6 +5,8 @@ import Card from "@/components/card";
 import Header from "@/components/header";
 import { PhoneCall } from "phosphor-react";
 
+import { Communication, Online, Prontu, Calendar } from "@/components/icons";
+
 export default function Home() {
   return (
     <main className="w-full h-screen bg-white">
@@ -39,10 +41,26 @@ export default function Home() {
           </span>
         </div>
         <div className="flex flex-wrap items-center justify-center mt-12 gap-4">
-          <Card className="bg-gradient-to-r from-blue-500 to-cyan-500" title="Casdatro de paciente"/>
-          <Card className="bg-gradient-to-r from-blue-500 to-cyan-500" title="Gerenciamento de consultas"/>
-          <Card className="bg-gradient-to-r from-blue-500 to-cyan-500" title="Gestão de prontuário"/>
-          <Card className="bg-gradient-to-r from-blue-500 to-cyan-500" title="Comunicação com paciente"/>
+          <Card
+            className="bg-gradient-to-r from-blue-500 to-cyan-500"
+            title="Casdatro de paciente"
+            image={Online}
+          />
+          <Card
+            className="bg-gradient-to-r from-blue-500 to-cyan-500"
+            title="Gerenciamento de consultas"
+            image={Calendar}
+          />
+          <Card
+            className="bg-gradient-to-r from-blue-500 to-cyan-500"
+            title="Gestão de prontuário"
+            image={Prontu}
+          />
+          <Card
+            className="bg-gradient-to-r from-blue-500 to-cyan-500"
+            title="Comunicação com paciente"
+            image={Communication}
+          />
         </div>
       </section>
     </main>

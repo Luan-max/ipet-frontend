@@ -3,13 +3,15 @@ import Button from "@/components/button";
 type CardProps = {
   title: string;
   className: string;
+  image: any;
 };
 
-export default function Card({ className, title }: CardProps) {
+export default function Card({ className, title, image }: CardProps) {
   return (
     <div
-      className={`flex flex-col w-96 h-60 items-center justify-center rounded-md ${className} gap-4`}
+      className={`flex flex-col w-96 h-72 items-center justify-center rounded-md ${className} gap-4`}
     >
+      {image}
       <span className="text-2xl text-light-0 font-bold">{title}</span>
       <Button
         label="Ver Planos e Preços"
