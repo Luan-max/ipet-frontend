@@ -110,7 +110,7 @@ export const Calendar = (
       fill="#7CBDF7"
     ></path>
     <path
-      fill-rule="evenodd"
+      fillRule="evenodd"
       clipRule="evenodd"
       d="M237 101l-1.076 21.303a6 6 0 01-5.992 5.697h11a6 6 0 005.992-5.697L248 101h-11z"
       fill="#63B0F4"
@@ -119,7 +119,7 @@ export const Calendar = (
       d="M231.5 72c0 18.5 6 18.5 0 18.5s0 4 0 4"
       stroke="#7CBDF7"
       stroke-width="3"
-      stroke-linecap="round"
+      strokeLinecap="round"
     ></path>
     <rect x="217" y="100" width="32" height="3" rx="1.5" fill="#A0CFF8"></rect>
     <defs>
@@ -131,8 +131,8 @@ export const Calendar = (
         y2="27.837"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="medical-agenda-big_svg__paint1_linear"
@@ -142,8 +142,8 @@ export const Calendar = (
         y2="147.669"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
     </defs>
   </svg>
@@ -260,15 +260,15 @@ export const Communication = (
       fill="#A0CFF8"
       stroke="#A0CFF8"
       stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     ></path>
     <path
       d="M207 100l8 10"
       stroke="#A0CFF8"
       stroke-width="5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     ></path>
     <defs>
       <linearGradient
@@ -279,8 +279,8 @@ export const Communication = (
         y2="124.163"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="iclinic-marketing-big_svg__paint1_linear"
@@ -290,8 +290,8 @@ export const Communication = (
         y2="142.972"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="iclinic-marketing-big_svg__paint2_linear"
@@ -301,8 +301,8 @@ export const Communication = (
         y2="124.163"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="iclinic-marketing-big_svg__paint3_linear"
@@ -312,8 +312,8 @@ export const Communication = (
         y2="-37.482"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="iclinic-marketing-big_svg__paint4_linear"
@@ -323,8 +323,8 @@ export const Communication = (
         y2="142.379"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="iclinic-marketing-big_svg__paint5_linear"
@@ -334,8 +334,8 @@ export const Communication = (
         y2="153.127"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="iclinic-marketing-big_svg__paint6_linear"
@@ -345,8 +345,8 @@ export const Communication = (
         y2="142.379"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="iclinic-marketing-big_svg__paint7_linear"
@@ -356,8 +356,8 @@ export const Communication = (
         y2="50.011"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <filter
         id="iclinic-marketing-big_svg__filter0_d"
@@ -366,7 +366,7 @@ export const Communication = (
         width="215.013"
         height="106.89"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
         <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
         <feColorMatrix
@@ -390,7 +390,7 @@ export const Communication = (
         width="112.363"
         height="63.066"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
         <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
         <feColorMatrix
@@ -413,7 +413,7 @@ export const Communication = (
 
 export const Prontu = (
   <svg width="264" height="128" fill="none">
-    <g clip-path="url(#prontuary-big_svg__clip0)">
+    <g clipPath="url(#prontuary-big_svg__clip0)">
       <path
         d="M53 16c0-3.771 0-5.657 1.172-6.828C55.343 8 57.229 8 61 8h142c3.771 0 5.657 0 6.828 1.172C211 10.343 211 12.229 211 16H53z"
         fill="url(#prontuary-big_svg__paint0_linear)"
@@ -549,7 +549,7 @@ export const Prontu = (
         d="M105 57h8v8h-8zM64.241 51.307l-2.583.009-.135.009.126-.099c1.368-1.269 2.385-2.223 2.385-3.384 0-1.17-.819-1.791-1.854-1.791-.765 0-1.44.441-1.773.873.072.198.207.378.423.45.234-.243.612-.63 1.323-.63.756 0 1.134.495 1.134 1.116 0 .783-.486 1.368-2.448 3.258-.234.225-.306.459-.306.666 0 .081.01.153.027.216h3.681c.036-.117.045-.243.045-.36 0-.108-.009-.216-.045-.333zM67.817 52.144c1.422 0 2.16-1.251 2.16-3.051 0-1.818-.71-3.042-2.16-3.042-1.422 0-2.16 1.224-2.16 3.042 0 1.8.711 3.051 2.16 3.051zm0-.675c-1.026 0-1.386-.99-1.386-2.376s.36-2.367 1.386-2.367c1.026 0 1.386.981 1.386 2.367 0 1.386-.36 2.376-1.386 2.376zM72.14 49.129a.57.57 0 000-1.143.572.572 0 000 1.143zm0 2.979a.57.57 0 000-1.143.572.572 0 000 1.143zM76.464 52.144c1.422 0 2.16-1.251 2.16-3.051 0-1.818-.711-3.042-2.16-3.042-1.422 0-2.16 1.224-2.16 3.042 0 1.8.71 3.051 2.16 3.051zm0-.675c-1.026 0-1.386-.99-1.386-2.376s.36-2.367 1.386-2.367c1.026 0 1.386.981 1.386 2.367 0 1.386-.36 2.376-1.386 2.376zM82.272 52.144c1.422 0 2.16-1.251 2.16-3.051 0-1.818-.71-3.042-2.16-3.042-1.422 0-2.16 1.224-2.16 3.042 0 1.8.711 3.051 2.16 3.051zm0-.675c-1.026 0-1.386-.99-1.386-2.376s.36-2.367 1.386-2.367c1.026 0 1.386.981 1.386 2.367 0 1.386-.36 2.376-1.386 2.376z"
       ></path>
       <path
-        fill-rule="evenodd"
+        fillRule="evenodd"
         clipRule="evenodd"
         d="M43 90a1 1 0 00-1-1H25a1 1 0 00-1 1v1c0 .552-.474.98-.959 1.245A2 2 0 0022 94v32a2 2 0 002 2h19a2 2 0 002-2V94a2 2 0 00-1.041-1.755C43.474 91.978 43 91.552 43 91v-1z"
         fill="#7CBDF7"
@@ -599,7 +599,7 @@ export const Prontu = (
       <path
         d="M230.988 92.047l-3.623 6.276"
         stroke="#7CBDF7"
-        stroke-linecap="round"
+        strokeLinecap="round"
       ></path>
     </g>
     <defs>
@@ -611,8 +611,8 @@ export const Prontu = (
         y2="27.837"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="prontuary-big_svg__paint1_linear"
@@ -622,8 +622,8 @@ export const Prontu = (
         y2="147.669"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <clipPath id="prontuary-big_svg__clip0">
         <path fill="#fff" d="M0 0h264v128H0z"></path>
@@ -679,10 +679,10 @@ export const Online = (
       d="M181 35v6l4 2"
       stroke="#D9EBFC"
       stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     ></path>
-    <g clip-path="url(#online-schedule-big_svg__clip0)">
+    <g clipPath="url(#online-schedule-big_svg__clip0)">
       <mask
         id="online-schedule-big_svg__a"
         maskUnits="userSpaceOnUse"
@@ -774,8 +774,8 @@ export const Online = (
         y2="27.837"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="online-schedule-big_svg__paint1_linear"
@@ -785,8 +785,8 @@ export const Online = (
         y2="147.669"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#fff"></stop>
-        <stop offset="1" stop-color="#A0CFF8"></stop>
+        <stop stopColor="#fff"></stop>
+        <stop offset="1" stopColor="#A0CFF8"></stop>
       </linearGradient>
       <linearGradient
         id="online-schedule-big_svg__paint2_linear"
@@ -796,8 +796,8 @@ export const Online = (
         y2="71.678"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#F6FAFE"></stop>
-        <stop offset="1" stop-color="#D6EFFE"></stop>
+        <stop stopColor="#F6FAFE"></stop>
+        <stop offset="1" stopColor="#D6EFFE"></stop>
       </linearGradient>
       <clipPath id="online-schedule-big_svg__clip0">
         <rect x="62" y="24" width="34" height="49" rx="2" fill="#fff"></rect>

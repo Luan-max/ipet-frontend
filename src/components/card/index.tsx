@@ -16,7 +16,7 @@ export default function Card({ className, title, image }: CardProps) {
       </div>
       <span className="text-2xl text-light-0 font-bold">{title}</span>
       <Button
-        label="Ver Planos e Preços"
+        label="Ver funcionalidades"
         className="bg-white hover:bg-gray-100"
         labelClassName="text-primary-0 font-bold text-md"
       />
