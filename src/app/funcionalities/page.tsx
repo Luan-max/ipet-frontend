@@ -3,13 +3,20 @@
 import Button from "@/components/button";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import { Calendar, CalendarCheck, ChatsCircle, Check } from "phosphor-react";
+import {
+  Calendar,
+  CalendarCheck,
+  ChartLineUp,
+  ChatsCircle,
+  Check,
+  IdentificationCard,
+} from "phosphor-react";
 
 export default function Funcionalities() {
   return (
-    <main className="w-full min-h-screen flex flex-col">
+    <main className="w-full min-h-screen flex flex-col bg-gradient-to-r from-slate-100 to-slate-300">
       <Header />
-      <section className="w-full h-[45rem] bg-white flex flex-row items-center justify-between">
+      <section className="w-full h-[45rem] flex flex-row items-center justify-between ">
         <div className="flex flex-col p-16 gap-6 items-start justify-center">
           <h1 className="text-primary-0 text-2xl font-bold">Funcionalidades</h1>
           <h2 className="text-black text-5xl">
@@ -22,7 +29,7 @@ export default function Funcionalities() {
             <div className="flex flex-row p-8 justify-between">
               <div className="flex flex-col items-start justify-center">
                 <span className="text-black font-bold text-xl">
-                  Plano Básico
+                  Básico
                 </span>
                 <span className="text-gray-600 font-semibold text-xs">
                   Com este plano, você tem direitos as <br /> nossas
@@ -44,29 +51,30 @@ export default function Funcionalities() {
             </span>
             <div className="p-6  grid grid-cols-2 gap-2">
               <div className="flex flex-row gap-2">
-                <Check size={20} color="#42d15a" />
+                <Check size={25} color="#42d15a" weight="bold" />
                 <span>Agenda Médica</span>
               </div>
               <div className="flex flex-row gap-2">
-                <Check size={20} color="#42d15a" />
+                <Check size={25} color="#42d15a" weight="bold" />
                 <span>Comunicação</span>
               </div>
               <div className="flex flex-row gap-2">
-                <Check size={20} color="#42d15a" />
+                <Check size={25} color="#42d15a" weight="bold" />
                 <span>Prontuário</span>
               </div>
               <div className="flex flex-row gap-2">
-                <Check size={20} color="#42d15a" />
+                <Check size={25} color="#42d15a" weight="bold" />
                 <span>Relatórios</span>
               </div>
               <div className="flex flex-row gap-2">
-                <Check size={20} color="#42d15a" />
+                <Check size={25} color="#42d15a" weight="bold" />
                 <span>Gestão de pacientes</span>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section className="w-full h-full p-8 flex flex-col items-center justify-center bg-white">
         <div className="flex flex-col p-8">
           <div className="flex items-center justify-center">
@@ -74,7 +82,7 @@ export default function Funcionalities() {
               Detalhes das funcionalidades
             </span>
           </div>
-          <div className="flex flex-wrap gap-28 p-6 mt-5">
+          <div className="flex flex-wrap gap-28 p-6 mt-5 items-center justify-center">
             <div className="flex flex-col gap-3 w-60">
               <div className="flex flex-row gap-2 items-center justify-start">
                 <CalendarCheck size={25} color="#0ea5e9" weight="bold" />
@@ -106,7 +114,31 @@ export default function Funcionalities() {
                 </span>
               </div>
               <span className="text-gray-700 font-bold text-xs">
-                Comunique com seus pacientes através de disparos SMS e E-mails.
+                Comunique com seus pacientes através de disparos SMS e E-mails
+              </span>
+            </div>
+            <div className="flex flex-col gap-3 w-72">
+              <div className="flex flex-row gap-2 items-center justify-start">
+                <IdentificationCard size={25} color="#0ea5e9" weight="bold" />
+                <span className="text-gray-700 font-bold text-xl">
+                  Prontuário
+                </span>
+              </div>
+              <span className="text-gray-700 font-bold text-xs">
+                Gerencie seu prontuário de uma forma totalmente dinâmica ao seu
+                modelo de negócio
+              </span>
+            </div>
+            <div className="flex flex-col gap-3 w-72">
+              <div className="flex flex-row gap-2 items-center justify-start">
+                <ChartLineUp size={25} color="#0ea5e9" weight="bold" />
+                <span className="text-gray-700 font-bold text-xl">
+                  Relatórios
+                </span>
+              </div>
+              <span className="text-gray-700 font-bold text-xs">
+                Gere relatórios para medir métricas do seu consultório,
+                verificar perfomance e etc
               </span>
             </div>
           </div>
