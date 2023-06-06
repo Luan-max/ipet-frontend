@@ -19,6 +19,7 @@ export default function Card({ className, title, image }: CardProps) {
         label="Ver funcionalidades"
         className="bg-white hover:bg-gray-100"
         labelClassName="text-primary-0 font-bold text-md"
+        path="/contact"
       />
     </div>
   );
