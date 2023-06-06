@@ -9,7 +9,7 @@ export default function Contact() {
     <main className="w-full min-h-screen flex flex-col ">
       <Header />
       <div className=" max-w-md mx-auto bg-white rounded p-8 shadow-md my-16">
-        <h2 className="text-2xl mb-4  ">Formulário de Contato</h2>
+        <h2 className="text-2xl mb-4  justify-items-center">Contato</h2>
         <form className="">
           <div className="mb-4">
             <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">
