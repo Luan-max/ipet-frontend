@@ -9,13 +9,18 @@ import {
   Clock,
   CloudArrowUp,
   Money,
+  PaperPlaneRight,
+  PaperPlaneTilt,
   PhoneCall,
+  Table,
+  UserList,
 } from "phosphor-react";
 import { Communication, Online, Prontu, Calendar } from "@/components/icons";
 import Footer from "@/components/footer";
 import Image from "next/image";
 
 import dash from "../../public/assets/dashboard.png";
+import form from "../../public/assets/form.jpg";
 
 export default function Home() {
   return (
@@ -26,18 +31,14 @@ export default function Home() {
           <h1 className="text-primary-0 text-2xl font-bold">
             Software médico iPet
           </h1>
-          <h2 className="text-primary-0 text-5xl">
+          <h2 className="text-gray text-5xl">
             Faça a gestão da sua clínica de <br />
             forma otimizada e fácil
           </h2>
-          <p className="text-gray-700 text-2xl">
-            Conquiste uma gestão clínica de excelência com <br />
-            um software médico feito para você
-          </p>
           <Button label="Quero conhecer" />
           <div className="flex flex-row gap-2 items-center cursor-pointer">
             <PhoneCall size={32} color="#0ea5e9" />
-            <span className="text-primary-0 text-sm font-bold ">
+            <span  className="text-primary-0 text-sm font-bold ">
               Fale conosco
             </span>
           </div>
@@ -129,6 +130,49 @@ export default function Home() {
               </div>
               <hr className="w-full" />
               <Button label="Quero testar conhecimento" />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-row justify-around items-center">
+          <div className="flex justify-center items-center mt-10 p-4 gap-4">
+            <div className="flex flex-col gap-7 items-start justify-center">
+              <span className="text-4xl font-medium text-gray-600">
+                {" "}
+                Ofereça um atendimento totalmente personalizado
+              </span>
+              <div className="mt-5 flex flex-row gap-4 justify-center items-center ">
+                <Table size={25} color="#0ea5e9" weight="bold" />
+
+                <span className="text-sm font-bold text-gray-700 ">
+                  Customize o prontuário de acordo com sua prática
+                </span>
+              </div>
+              <hr className="w-full" />
+              <div className="flex flex-row gap-4 justify-center items-center ">
+                <UserList size={25} color="#0ea5e9" weight="bold" />
+                <span className="text-sm font-bold text-gray-700">
+                  Customize o prontuário de acordo com sua prática
+                </span>
+              </div>
+              <hr className="w-full" />
+              <div className="flex flex-row gap-4 justify-center items-center  ">
+                <PaperPlaneTilt size={25} color="#0ea5e9" weight="bold" />
+
+                <span className="text-sm font-bold text-gray-700">
+                  Envie comunicações personalizadas para os pacientes
+                </span>
+              </div>
+              <hr className="w-full" />
+              <Button label="Quero testar conhecimento" />
+            </div>
+            <div className="flex flex-row justify-center items-center">
+              <Image
+                src={form}
+                width={800}
+                height={150}
+                alt="Dashboard"
+                className="shadow-inner hover:shadow-lg rounded-lg"
+              />
             </div>
           </div>
         </div>

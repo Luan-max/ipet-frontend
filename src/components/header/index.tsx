@@ -14,7 +14,7 @@ export default function Header() {
         <Link href="#" className="text-white font-bold text-md hover:underline underline-offset-8">
           Funcionalidades
         </Link>
-        <Link href="#" className="text-white font-bold text-md hover:underline underline-offset-8">
+        <Link href="/contact" className="text-white font-bold text-md hover:underline underline-offset-8">
           Fale conosco
         </Link>
         <button className="bg-transparent w-36 h-10 rounded-md outline outline-offset-2 outline-2 outline-white hover:bg-white text-white hover:text-primary-0">
