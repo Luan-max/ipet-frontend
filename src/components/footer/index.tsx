@@ -27,9 +27,24 @@ const Footer = () => {
         <div className="flex flex-col p-6 ">
           <h3 className="text-white font-bold mb-2 ">Redes sociais</h3>
           <div className="flex flex-row gap-2">
-            <FacebookLogo size={32} color="white" cursor="pointer" />
-            <InstagramLogo size={32} color="white" cursor="pointer" />
-            <WhatsappLogo size={32} color="white" cursor="pointer" />
+            <FacebookLogo
+              size={32}
+              color="white"
+              cursor="pointer"
+              weight="bold"
+            />
+            <InstagramLogo
+              size={32}
+              color="white"
+              cursor="pointer"
+              weight="bold"
+            />
+            <WhatsappLogo
+              size={32}
+              color="white"
+              cursor="pointer"
+              weight="bold"
+            />
           </div>
         </div>
       </div>
