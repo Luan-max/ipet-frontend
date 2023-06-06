@@ -22,7 +22,7 @@ export const Calendar = (
       height="80"
       rx="2"
       stroke="#A0CFF8"
-      stroke-width="0.5"
+      strokeWidth="0.5"
     ></rect>
     <rect
       x="87"
@@ -31,7 +31,7 @@ export const Calendar = (
       height="80"
       rx="2"
       stroke="#A0CFF8"
-      stroke-width="0.5"
+      strokeWidth="0.5"
     ></rect>
     <rect
       x="117"
@@ -40,7 +40,7 @@ export const Calendar = (
       height="80"
       rx="2"
       stroke="#A0CFF8"
-      stroke-width="0.5"
+      strokeWidth="0.5"
     ></rect>
     <rect
       x="147"
@@ -49,7 +49,7 @@ export const Calendar = (
       height="80"
       rx="2"
       stroke="#A0CFF8"
-      stroke-width="0.5"
+      strokeWidth="0.5"
     ></rect>
     <rect
       x="177"
@@ -58,11 +58,11 @@ export const Calendar = (
       height="80"
       rx="2"
       stroke="#A0CFF8"
-      stroke-width="0.5"
+      strokeWidth="0.5"
     ></rect>
     <path
       stroke="#A0CFF8"
-      stroke-width="0.5"
+      strokeWidth="0.5"
       d="M57 83h150v11H57zM57 60h150v11H57zM57 94h150v12H57zM57 71h150v12H57zM57 48h150v12H57z"
     ></path>
     <path fill="#7CBDF7" d="M117 48h30v12h-30zM57 48h30v12H57z"></path>
@@ -103,7 +103,7 @@ export const Calendar = (
     <path
       d="M247.25 105H252a2 2 0 012 2v2a8 8 0 01-8 8h-1"
       stroke="#63B0F4"
-      stroke-width="4"
+      strokeWidth="4"
     ></path>
     <path
       d="M218 101h30l-1.076 21.303a6 6 0 01-5.992 5.697h-15.864a6 6 0 01-5.992-5.697L218 101z"
@@ -118,7 +118,7 @@ export const Calendar = (
     <path
       d="M231.5 72c0 18.5 6 18.5 0 18.5s0 4 0 4"
       stroke="#7CBDF7"
-      stroke-width="3"
+      strokeWidth="3"
       strokeLinecap="round"
     ></path>
     <rect x="217" y="100" width="32" height="3" rx="1.5" fill="#A0CFF8"></rect>
@@ -259,14 +259,14 @@ export const Communication = (
       d="M197.886 86.428L221 99l-11.437 3.575L202 112l-4.114-25.572z"
       fill="#A0CFF8"
       stroke="#A0CFF8"
-      stroke-width="2"
+      strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     ></path>
     <path
       d="M207 100l8 10"
       stroke="#A0CFF8"
-      stroke-width="5"
+      strokeWidth="5"
       strokeLinecap="round"
       strokeLinejoin="round"
     ></path>
@@ -673,12 +673,12 @@ export const Online = (
       r="11"
       fill="#F4F9FE"
       stroke="#D9EBFC"
-      stroke-width="2"
+      strokeWidth="2"
     ></circle>
     <path
       d="M181 35v6l4 2"
       stroke="#D9EBFC"
-      stroke-width="2"
+      strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     ></path>

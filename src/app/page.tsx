@@ -31,7 +31,7 @@ export default function Home() {
           <h1 className="text-primary-0 text-2xl font-bold">
             Software médico iPet
           </h1>
-          <h2 className="text-gray text-5xl">
+          <h2 className="text-gray-700 text-5xl">
             Faça a gestão da sua clínica de <br />
             forma otimizada e fácil
           </h2>
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full">
+      <section className="w-full bg-transparent">
         <div className="flex flex-col items-center justify-center pt-12 gap-2">
           <h1 className="text-primary-0 text-5xl font-bold">Funcionalidades</h1>
           <span className="text-secondary-0 text-lg font-bold">
@@ -77,7 +77,7 @@ export default function Home() {
       <hr className="w-full mt-12 bg-slate-300" />
 
       <section className="w-full p-10">
-        <div className="flex flex-col items-center justify-center pt-12 gap-2 p-4">
+        <div className="flex flex-col items-center justify-center pt-12 gap-2 p-4 w-[101rem]">
           <h1 className="text-primary-0 text-5xl font-bold">Benefícios</h1>
           <span className="text-secondary-0 text-lg font-bold">
             Ganhe ainda mais praticidade na gestão da sua clínica
@@ -129,12 +129,12 @@ export default function Home() {
                 </span>
               </div>
               <hr className="w-full" />
-              <Button label="Quero testar conhecimento" />
+              <Button label="Quero testar a plataforma" />
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-around items-center">
-          <div className="flex justify-center items-center mt-10 p-4 gap-4">
+        <div className="flex flex-row justify-around items-center ">
+          <div className="flex justify-center items-center mt-10 p-4 gap-4 w-[101rem]">
             <div className="flex flex-col gap-7 items-start justify-center">
               <span className="text-4xl font-medium text-gray-600">
                 {" "}
@@ -147,14 +147,14 @@ export default function Home() {
                   Customize o prontuário de acordo com sua prática
                 </span>
               </div>
-              <hr className="w-full" />
+              <hr className="w-[42rem]" />
               <div className="flex flex-row gap-4 justify-center items-center ">
                 <UserList size={25} color="#0ea5e9" weight="bold" />
                 <span className="text-sm font-bold text-gray-700">
                   Customize o prontuário de acordo com sua prática
                 </span>
               </div>
-              <hr className="w-full" />
+              <hr className="w-[42rem]" />
               <div className="flex flex-row gap-4 justify-center items-center  ">
                 <PaperPlaneTilt size={25} color="#0ea5e9" weight="bold" />
 
@@ -162,8 +162,8 @@ export default function Home() {
                   Envie comunicações personalizadas para os pacientes
                 </span>
               </div>
-              <hr className="w-full" />
-              <Button label="Quero testar conhecimento" />
+              <hr className="w-[42rem]" />
+              <Button label="Quero testar a plataforma" />
             </div>
             <div className="flex flex-row justify-center items-center">
               <Image
