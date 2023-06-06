@@ -35,10 +35,10 @@ export default function Home() {
             Faça a gestão da sua clínica de <br />
             forma otimizada e fácil
           </h2>
-          <Button label="Quero conhecer" />
+          <Button label="Quero conhecer" path="/contact" />
           <div className="flex flex-row gap-2 items-center cursor-pointer">
             <PhoneCall size={32} color="#0ea5e9" />
-            <span  className="text-primary-0 text-sm font-bold ">
+            <span className="text-primary-0 text-sm font-bold ">
               Fale conosco
             </span>
           </div>
@@ -129,7 +129,7 @@ export default function Home() {
                 </span>
               </div>
               <hr className="w-full" />
-              <Button label="Quero testar a plataforma" />
+              <Button label="Quero testar a plataforma" path="/contact" />
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@ export default function Home() {
                 </span>
               </div>
               <hr className="w-[42rem]" />
-              <Button label="Quero testar a plataforma" />
+              <Button label="Quero testar a plataforma" path="/contact" />
             </div>
             <div className="flex flex-row justify-center items-center">
               <Image

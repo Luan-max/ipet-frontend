@@ -43,7 +43,7 @@ export default function Contact() {
               placeholder="Digite sua mensagem"
             ></textarea>
           </div>
-          <Button label="Enviar" />
+          <Button label="Enviar" path="#"/>
         </form>
       </div>
       <Footer />
