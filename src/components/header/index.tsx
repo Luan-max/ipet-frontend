@@ -11,7 +11,7 @@ export default function Header() {
       </Link>
 
       <div className="flex flex-row pr-28 gap-8 items-center justify-center">
-        <Link href="#" className="text-white font-bold text-md hover:underline underline-offset-8">
+        <Link href="/funcionalities" className="text-white font-bold text-md hover:underline underline-offset-8">
           Funcionalidades
         </Link>
         <Link href="/contact" className="text-white font-bold text-md hover:underline underline-offset-8">
