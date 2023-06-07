@@ -43,7 +43,7 @@ export default function Funcionalities() {
               </div>
             </div>
             <div className="p-4 flex items-center justify-center">
-              <Button label="Entrar em contato" />
+              <Button label="Entrar em contato" path="/contact"/>
             </div>
             <hr className="w-full" />
             <span className="p-6 text-black font-bold text-lg">
