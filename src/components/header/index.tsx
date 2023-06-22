@@ -4,7 +4,7 @@ import logo from "../../../public/assets/logo.svg";
 
 export default function Header() {
   return (
-    <header className="w-full h-24 flex items-center justify-between shadow-2xl bg-gradient-to-r from-blue-500 to-cyan-500 fixed">
+    <header className="w-full h-24 flex items-center justify-between shadow-2xl bg-gradient-to-r from-blue-500 to-cyan-500 fixed z-10">
       <Link href="/" className="flex flex-row pl-28  items-center gap-1 justify-center">
         <Image src={logo} width={50} height={50} alt="Logo" />
         <span className="text-white font-bold text-2xl">iPet</span>
