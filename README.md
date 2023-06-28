@@ -12,10 +12,11 @@ Clone este repositório para o seu ambiente local:
 ```bash
 git clone https://github.com/Luan-max/ipet-frontend.git
 ```
+
 Acesse o diretório do projeto:
+
 ```bash
 cd ipet-frontend
-```
 ```
 ## Instalação das dependências
 
